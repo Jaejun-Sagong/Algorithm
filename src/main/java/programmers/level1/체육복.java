@@ -1,3 +1,5 @@
+package programmers.level1;
+
 import java.util.*;
 
 public class 체육복 {

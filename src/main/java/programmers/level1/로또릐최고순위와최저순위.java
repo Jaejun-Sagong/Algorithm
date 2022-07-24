@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level1;
 
 public class 로또릐최고순위와최저순위 {
     class Solution {

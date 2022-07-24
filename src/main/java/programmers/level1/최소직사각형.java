@@ -1,4 +1,4 @@
-package programmers;
+package programmers.level1;
 
 public class 최소직사각형 {
     class Solution {
