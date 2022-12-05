@@ -2,7 +2,6 @@ package programmers.level1;
 
 public class 숫자문자열과영단어 {
     //나의 풀이
-    class Solution {
         public int solution(String s) {
             int answer = 0;
             if (s.contains("zero")) {
@@ -44,7 +43,6 @@ public class 숫자문자열과영단어 {
             return answer;
         }
     }
-}
 
 /*
 //깔끔한 답안

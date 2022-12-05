@@ -5,7 +5,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class 두개뽑아서더하기 {
-    class Solution {
         public int[] solution(int[] answers) {
             int[] answer = {};
             Set<Integer> s = new HashSet<>();
@@ -24,4 +23,3 @@ public class 두개뽑아서더하기 {
             return answer;
         }
     }
-}

@@ -3,7 +3,6 @@ package programmers.level1;
 import java.util.Arrays;
 
 public class k번째수 {
-    class Solution {
         public int[] solution(int[] array, int[][] commands) {
             int[] answer = {};
             int[][] sliceArr = new int[commands.length][];
@@ -30,5 +29,4 @@ public class k번째수 {
 
             return answer;
         }
-    }
 }

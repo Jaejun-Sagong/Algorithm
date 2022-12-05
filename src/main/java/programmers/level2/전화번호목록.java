@@ -3,7 +3,6 @@ package programmers.level2;
 import java.util.Arrays;
 
 public class 전화번호목록 {
-    class Solution {
         public boolean solution(String[] phoneBook) {
             Arrays.sort(phoneBook);
 //            System.out.println(Arrays.toString(phoneBook));
@@ -16,5 +15,4 @@ public class 전화번호목록 {
             return true;
         }
     }
-}
 

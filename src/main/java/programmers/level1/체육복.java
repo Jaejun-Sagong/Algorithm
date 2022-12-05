@@ -3,7 +3,6 @@ package programmers.level1;
 import java.util.*;
 
 public class 체육복 {
-    class Solution {
         public int solution(int n, int[] lost, int[] reserve) {
             int answer = 0;
 
@@ -40,4 +39,3 @@ public class 체육복 {
             return answer;
         }
     }
-}

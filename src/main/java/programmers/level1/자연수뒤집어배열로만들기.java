@@ -1,7 +1,6 @@
 package programmers.level1;
 
 public class 자연수뒤집어배열로만들기 {
-    class Solution {
         public int[] solution(long n) {
 
 				/*1. 받아온 n값을 배열 형태로 리턴해야하는데
@@ -27,4 +26,3 @@ public class 자연수뒤집어배열로만들기 {
             return answer;
         }
     }
-}

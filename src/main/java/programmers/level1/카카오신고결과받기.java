@@ -1,6 +1,8 @@
+package programmers.level1;
+
 import java.util.*;
 
-class Solution {
+public class 카카오신고결과받기 {
     public int[] solution(String[] id_list, String[] report, int k) {
         int[] answer = new int[id_list.length];
 // 1. 중복 제거

@@ -3,7 +3,6 @@ package programmers.level1;
 import java.util.ArrayList;
 
 public class 모의고사 {
-    class Solution {
         public int[] solution(int[] answers) {
             int[] answer = {};
             //나는 stu들의 배열의 크기를 answers.length에 맞춰 생성 후
@@ -46,4 +45,3 @@ public class 모의고사 {
             return answer;
         }
     }
-}

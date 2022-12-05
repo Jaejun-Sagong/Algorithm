@@ -2,7 +2,7 @@ package programmers.level1;
 
 import java.util.*;
 
-class Solution {
+public class 실패율 {
     public int[] solution(int N, int[] stages) {
         int[] answer = new int[N];
 

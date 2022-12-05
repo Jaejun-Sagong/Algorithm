@@ -1,7 +1,6 @@
 package programmers.level1;
 
 public class 로또릐최고순위와최저순위 {
-    class Solution {
         public int[] solution(int[] lottos, int[] win_nums) {
             int[] answer = new int[2];
             int sameNum = 0;
@@ -85,4 +84,3 @@ public class 로또릐최고순위와최저순위 {
             return answer;
         }
     }
-}

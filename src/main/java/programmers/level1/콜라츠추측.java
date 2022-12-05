@@ -1,7 +1,6 @@
 package programmers.level1;
 
 public class 콜라츠추측 {
-    class Solution {
         public int solution(int num) {
             int answer = 0;
 
@@ -36,5 +35,4 @@ public class 콜라츠추측 {
 
             return answer;
         }
-    }
 }

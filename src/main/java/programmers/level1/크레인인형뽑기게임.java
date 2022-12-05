@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Objects;
 
 public class 크레인인형뽑기게임 {
-
-    class Solution {
         public int solution(int[][] board, int[] moves) {
             int answer = 0;
             ArrayList<Integer> answerList = new ArrayList<>();
@@ -36,4 +34,3 @@ public class 크레인인형뽑기게임 {
             return answer;
         }
     }
-}

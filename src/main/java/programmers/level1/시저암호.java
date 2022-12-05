@@ -1,7 +1,6 @@
 package programmers.level1;
 
 public class 시저암호 {
-    class Solution {
         public String solution(String s, int n) {
             String answer = "";
             char[] save = s.toCharArray();
@@ -30,4 +29,3 @@ public class 시저암호 {
             return answer;
         }
     }
-}

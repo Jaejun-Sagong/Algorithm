@@ -3,7 +3,6 @@ package programmers.level1;
 import java.util.ArrayList;
 
 public class 같은숫자는싫어 {
-    class Solution {
         public int[] solution(int[] arr) {
             int[] answer = {};
             //arr에 따라 유연하게 변해야하므로 list 생성
@@ -24,4 +23,3 @@ public class 같은숫자는싫어 {
             return answer;
         }
     }
-}

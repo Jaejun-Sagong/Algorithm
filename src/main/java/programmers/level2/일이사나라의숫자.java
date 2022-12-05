@@ -1,7 +1,6 @@
 package programmers.level2;
 
 public class 일이사나라의숫자 {
-    class Solution {
         public String solution(int n) {
             String[] num = {"4", "1", "2"};
             String answer = "";
@@ -14,7 +13,6 @@ public class 일이사나라의숫자 {
             return answer;
         }
     }
-}
 
 //    final String s = Integer.toString(100, radix);
 

@@ -3,7 +3,6 @@ package programmers.level1;
 import java.util.Arrays;
 
 public class 문자열내마음대로정렬 {
-     class Solution {
         public String[] solution(String[] strings, int n) {
             String[] answer = new String[strings.length];
             for(int i =0; i < strings.length; i++){
@@ -21,4 +20,3 @@ public class 문자열내마음대로정렬 {
             return answer;
         }
     }
-}
