@@ -4,7 +4,6 @@ public class 연속된수의합 {
     class Solution {
         public int[] solution(int num, int total) {
             int[] answer = new int[num];
-            int a = 1;
             int startNum;
             int median = total / num;
 

@@ -1,6 +1,6 @@
 package programmers.level2;
 
-class Solution {
+class 타일링 {
     public int solution(int n) {
         int answer = 0;
         int[] arr = new int[n];
