@@ -1,7 +1,6 @@
 package programmers.level2;
 
 public class 타겟넘버 {
-    class Solution {
         int answer;
         public int solution(int[] numbers, int target) {
             answer = 0;
@@ -19,4 +18,3 @@ public class 타겟넘버 {
             dfs(n + 1, sum - numbers[n], numbers, target);
         }
     }
-}
