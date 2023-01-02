@@ -11,10 +11,11 @@ public class 프린터 {
         for(int n : priorities){
             priorityQueue.add(n);
         }
-
+        //for문 반복 의도를 이해하고 배워가자.
         while(!priorityQueue.isEmpty()){
             for(int i = 0;i<priorities.length;i++){
-                if(priorityQueue.peek() == priorities[i] ){
+                //우선순위 큐 front의 위치를 찾는다.
+                if(priorityQueue.peek() == priorities[i]){
                     priorityQueue.poll();
                     answer++;
                     if(location == i )

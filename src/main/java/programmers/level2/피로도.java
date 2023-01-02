@@ -4,10 +4,8 @@ public class 피로도 {
     class Solution {
         public int answer = 0;
         public boolean[] visited;
-
         public int solution(int k, int[][] dungeons) {
             visited = new boolean[dungeons.length];
-
             dfs(0, k, dungeons);
 
             return answer;
