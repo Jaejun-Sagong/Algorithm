@@ -25,31 +25,34 @@ public class 올바른괄호 {
         }
     }
 }
-/*   시간초과 뜬 풀이
-    class Solution {
+
+/*
+class Solution {
         boolean solution(String s) {
+            boolean answer = true;
             Stack<Character> stack = new Stack<>();
-            char[] arr = s.toCharArray();
-
-            if (arr[0] == ')')
-                return false;
-
-            for (char c : arr) {
-                if (stack.isEmpty())
-                    stack.push(c);
-
-                else if (stack.peek() == '(') {
-                    if (c == ')')
+            if (s.charAt(0) == ')') {
+                answer = false;
+                return answer;
+            }
+            stack.push(s.charAt(0));
+            for (int i = 1; i < s.length(); i++) {
+                if (s.charAt(i) == '(')
+                    stack.push('(');
+                else{
+                    if(stack.isEmpty()){
+                        answer = false;
+                        break;
+                    } else if (stack.peek()=='(') {
                         stack.pop();
-                    else {
-                        stack.push(c);
+
                     }
-                } else {
-                    return false;
                 }
             }
-
-            return stack.isEmpty();
+            if(!stack.isEmpty())
+                answer = false;
+            return answer;
         }
     }
  */
+
