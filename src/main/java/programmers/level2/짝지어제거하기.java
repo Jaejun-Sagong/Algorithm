@@ -1,27 +1,30 @@
 package programmers.level2;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class 짝지어제거하기 {
     class Solution {
         public int solution(String s) {
-            int answer = -1;
-            ArrayList<Character> list = new ArrayList<>();
+            int answer;
+            Stack<Character> stack = new Stack<>();
             char[] arr = s.toCharArray();
 
-            for (int i = 0; i < s.length(); i++) {
-                if (list.isEmpty())
-                    list.add(arr[i]);
-                else {
-                    if (list.get(list.size()-1).equals(arr[i]))
-                        list.remove(list.size()-1);
-                    else {
-                        list.add(arr[i]);
-                    }
-                }
+            for (int i = 0; i < s.length(); i++) { // for(char c : s.toCharArray())
+                if (!stack.isEmpty()) {
+                    if (arr[i] == stack.peek())
+                        stack.pop();
+                    else
+                        stack.push(arr[i]);
+                } else
+                    stack.push(arr[i]);
             }
-
-            return list.isEmpty() ? 1:0;
+            if (stack.isEmpty())
+                answer = 1;
+            else
+                answer = 0;
+            return answer;
+//            return stack.isEmpty() ? 1 : 0;
         }
     }
 }

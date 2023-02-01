@@ -21,3 +21,23 @@ public class 숫자의표현 {
         }
     }
 }
+
+/*
+   public int solution(int n) {
+            int answer = 0;
+            int a;
+            int sum;
+            for (int i = 1; i < n; i++) {
+                a = i;
+                sum = 0;
+                while (sum < n) {
+                    sum += a;
+                    a++;
+                    if (sum == n) {
+                        answer++;
+                    }
+                }
+            }
+            return answer + 1;
+        }
+ */
